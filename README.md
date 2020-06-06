@@ -12,7 +12,7 @@ PillDucky is similar to "Hak5's Rubber Ducky" but for STM32 boards.
 ### Bootloader  
 STM32 boards do not come with bootloader flashed out of the box. However, it is quite easy to burn bootloader.   
 The recent [Bootloader 2.2.x](https://github.com/Serasidis/STM32_HID_Bootloader/releases/latest) enables STM32 to work as a HID.  
-I would recommend watching "Caleb Marting"'s video.[Caleb Marting's video](https://www.youtube.com/watch?v=Myon8H111PQ), It's a Great video to get started on programming the STM32s through USB, also there are some steps shown in the video which are important for PillDucky to work.  
+I would recommend watching "Caleb Marting"'s video. [Caleb Marting's video](https://www.youtube.com/watch?v=Myon8H111PQ), It's a Great video to get started on programming the STM32s through USB, also there are some steps shown in the video which are important for PillDucky to work.  
 
 ## Getting Started  
 You will have to add the path of "%STM32CubeProgrammer%\bin" to the "paths" of the "System Variables" in order to program the STM32 with the 2.2.x Bootloader.  
