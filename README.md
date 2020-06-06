@@ -20,7 +20,7 @@ Assuming that the new bootloader is flashed, now we can setup our "PilDucky".
 
 ### Setting Up PillDucky  
 PillDucky works with all the scripts of original "Hak5's Rubber Ducky" except the ones which requires WiFi onboard.   
-In order to make "Rubber Ducky" scripts work on PillDucky you will have to use [Duckweeno's Duckuino](https://dukweeno.github.io/Duckuino/) or [d4n5h's Duckuino](https://d4n5h.github.io/Duckuino/) compilers. The compilers are self-explanatory.   
+In order to make "Rubber Ducky" scripts work on PillDucky you will have to use [Duckweeno's Duckuino](https://dukweeno.github.io/Duckuino/) or [d4n5h's Duckuino](https://d4n5h.github.io/Duckuino/) compilers. The compilers are self-explanatory. If you are using d4n5h's Duckuino you will have to install additional [Library](https://github.com/NicoHood/HID) in the Arduino IDE.  
   
 ### Programming PillDucky  
 PillDucky can be programmed from Arduino IDE for that you will need some additional changes in the "Tools" section in the IDE:  
