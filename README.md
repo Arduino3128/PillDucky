@@ -24,4 +24,6 @@ In order to make "Rubber Ducky" scripts work on PillDucky you will have to use [
   
 ### Programming PillDucky  
 PillDucky can be programmed from Arduino IDE for that you will need some additional changes in the "Tools" section in the IDE:  
-1. "USB Support (if avilable):"HID(Keyboad and Mouse)""
+1. USB Support (if avilable):"HID(Keyboad and Mouse)"
+
+***NOTE:*** *You will have to move BOOT1 jumper from 0 to 1 to initialize the bootloader which is required for programming the STM32 board through the micro-USB.*
