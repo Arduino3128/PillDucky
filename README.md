@@ -15,8 +15,8 @@ The recent [Bootloader 2.2.x](https://github.com/Serasidis/STM32_HID_Bootloader/
 I would recommend watching "Caleb Marting"'s video. [Caleb Marting's video](https://www.youtube.com/watch?v=Myon8H111PQ), It's a Great video to get started on programming the STM32s through USB, also there are some steps shown in the video which are important for PillDucky to work.  
 
 ## Getting Started  
-You will have to add the path of "%STM32CubeProgrammer%\bin" to the "paths" of the "System Variables" in order to program the STM32 with the 2.2.x Bootloader.  
-Assuming that the new bootloader is flashed, now we can setup our "PilDucky".
+You will have to add the path of "%STM32CubeProgrammer%\bin" to the "PATH" of the "System Variables" in order to program the STM32 with the 2.2.x Bootloader.  
+Assuming that the new bootloader is flashed, now we can setup our "PillDucky".
 
 ### Setting Up PillDucky  
 PillDucky works with all the scripts of original "Hak5's Rubber Ducky" except the ones which requires WiFi onboard.   
